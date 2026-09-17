@@ -561,5 +561,3 @@ python main.py --input data/sample --output outputs/my_report.json
 ---
 
 > **Built with Python, OpenCV, NumPy, and pytest.**
-sion project that analyzes image quality using brightness, contrast, sharpness, and noise metrics. It generates an overall quality score, classifies images as Poor, Fair or Excellent, and provides recommendations for improving image quality. Supports both single-image and batch folder analysis with JSON report generation.
-[README.md](https://github.com/user-attachments/files/32338915/README.md)
