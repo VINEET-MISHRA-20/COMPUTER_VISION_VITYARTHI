@@ -1,0 +1,77 @@
+[
+    {
+        "file": "data\\sample\\dark.jpg",
+        "resolution": {
+            "width": 600,
+            "height": 400
+        },
+        "metrics": {
+            "brightness": 35.0,
+            "contrast": 0.0,
+            "sharpness": 0.0,
+            "noise": 0.0
+        },
+        "scores": {
+            "brightness": 0.2734,
+            "contrast": 0,
+            "sharpness": 0,
+            "noise": 1,
+            "overall": 26.84
+        },
+        "label": "Poor",
+        "recommendations": [
+            "Image may be too dark. Consider increasing exposure.",
+            "Low contrast detected.",
+            "Low sharpness detected. Check focus or camera movement."
+        ]
+    },
+    {
+        "file": "data\\sample\\normal.jpg",
+        "resolution": {
+            "width": 600,
+            "height": 400
+        },
+        "metrics": {
+            "brightness": 128.0,
+            "contrast": 0.0,
+            "sharpness": 0.0,
+            "noise": 0.0
+        },
+        "scores": {
+            "brightness": 1,
+            "contrast": 0,
+            "sharpness": 0,
+            "noise": 1,
+            "overall": 45.0
+        },
+        "label": "Fair",
+        "recommendations": [
+            "Low contrast detected.",
+            "Low sharpness detected. Check focus or camera movement."
+        ]
+    },
+    {
+        "file": "data\\sample\\sharp.jpg",
+        "resolution": {
+            "width": 600,
+            "height": 400
+        },
+        "metrics": {
+            "brightness": 102.15,
+            "contrast": 123.63,
+            "sharpness": 1169.23,
+            "noise": 0.07
+        },
+        "scores": {
+            "brightness": 0.798,
+            "contrast": 1,
+            "sharpness": 1,
+            "noise": 0.9977,
+            "overall": 94.9
+        },
+        "label": "Excellent",
+        "recommendations": [
+            "No major quality problem detected."
+        ]
+    }
+]
